@@ -90,8 +90,8 @@ int main(void) {
     	// while (!(IFG2&UCA0TXIFG));
     	  //UCA0TXBUF = temp;
 
-    	 __no_operation();
-    	 __no_operation();
+    	// __no_operation();
+    	// __no_operation();
 
     	 IntDegC = ((temp - 673) * 423) / 1024;
 
